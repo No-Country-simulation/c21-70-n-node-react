@@ -10,5 +10,29 @@ generator client {
 
 datasource db {
   provider = "mysql"
-  url      = env("DATABASE_URL")
+  url  = env("DATABASE_URL")
 }
+
+model Usuarios{
+ idUsuarios Int @default(autoincrement()) @id
+ TipoDocumento String
+  NumeroDocumento String
+  Nombres String
+  Apellidos String 
+  Correo String @unique // Este dato no puede ser repetido
+  FechaNacimiento DateTime  @unique // Este dato no puede ser repetido
+  FechaExpedicion DateTime  @unique // Este dato no puede ser repetido
+  NumeroTelefono String
+  NumeroPin Int
+}
+
+model Cuenta{
+  idCuenta Int @default(autoincrement()) @id
+  Saldo  Float
+}
+
+model Transaccion{
+  idTransaccion Int @default (autoincrement()) @id
+  TipoTransaccion String
+  FechaTransaccion DateTime
+   }
