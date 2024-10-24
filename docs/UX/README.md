@@ -24,7 +24,24 @@ Este proyecto es una aplicación móvil para gestionar diversas operaciones fina
 ![Splash screen](./img/splash-screen.jpg)
 
 *Figura 1: Splash screen*
-- **Onboarding**: Introducción rápida para nuevos usuarios.
+- **Onboarding**: Introducción rápida para nuevos usuarios, tiene como objetivo conectar con los usuarios y guiarlos de manera sencilla hacia el inicio de sesión o registro. 
+
+- **Imagen principal**: Se muestra una imagen amigable de personas conectadas, que busca generar confianza y seguridad, representando el lema del banco "Un banco para toda la familia".
+- **Mensaje**: 
+  - Eslogan: "Un banco para toda la familia", refuerza la idea de accesibilidad para todos.
+- **Botón principal**: 
+  - El botón **Iniciar sesión** es el CTA principal, destacado con el esquema de colores de la aplicación.
+- **Opción de registro**: 
+  - Los usuarios nuevos tienen la opción de registrarse a través de un enlace visible: "¿Aún no tienes cuenta? [Regístrate aquí!]".
+- **Tipografía**: 
+  - La jerarquía visual está claramente definida, con el nombre de la aplicación destacado en negrita y un botón de acción claramente visible.
+
+Este diseño busca generar confianza y guiar a los usuarios de manera intuitiva hacia el siguiente paso en la aplicación.
+
+![Onboarding](./img/onboarding.jpg)
+
+*Figura 2: Pantalla de onboarding*
+
 - **Inicio de Sesión**: El usuario puede iniciar sesión con su nombre de usuario y contraseña, con un ajuste visual para unificar los colores de los iconos a blanco. El diseño del inicio de sesión varía según la hora del día, mostrando una variante nocturna con un ícono de luna y colores más tenues para la noche, y una variante diurna con un ícono de sol y colores más brillantes. Esto mejora la experiencia del usuario y adapta la interfaz a diferentes condiciones de luz.
 
 ![Pantalla de inicio de sesión (diurna)](./img/inicio-sesion-dia.jpg)
