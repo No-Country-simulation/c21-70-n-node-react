@@ -20,16 +20,20 @@ Este proyecto es una aplicación móvil para gestionar diversas operaciones fina
 
 ### Pantallas
 - **Splash Screen**: Pantalla inicial con el logo de la app.
+
+![Splash screen](./img/splash-screen.jpg)
+
+*Figura 1: Splash screen*
 - **Onboarding**: Introducción rápida para nuevos usuarios.
 - **Inicio de Sesión**: El usuario puede iniciar sesión con su nombre de usuario y contraseña, con un ajuste visual para unificar los colores de los iconos a blanco. El diseño del inicio de sesión varía según la hora del día, mostrando una variante nocturna con un ícono de luna y colores más tenues para la noche, y una variante diurna con un ícono de sol y colores más brillantes. Esto mejora la experiencia del usuario y adapta la interfaz a diferentes condiciones de luz.
 
 ![Pantalla de inicio de sesión (diurna)](./img/inicio-sesion-dia.jpg)
 
-*Figura 1: Pantalla de inicio de sesión con modo diurno.*
+*Figura 2: Pantalla de inicio de sesión con modo diurno.*
 
 ![Pantalla de inicio de sesión (nocturno)](./img/inicio-sesion-noche.jpg)
 
-*Figura 2: Pantalla de inicio de sesión con modo nocturno.*
+*Figura 3: Pantalla de inicio de sesión con modo nocturno.*
   
 ## Flows
 
