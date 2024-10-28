@@ -5,6 +5,7 @@
 :root {
   --background: #ffffff;
   --foreground: #171717;
+  --roseBackground: #FB7286
 }
 
 @media (prefers-color-scheme: dark) {
@@ -24,4 +25,11 @@ body {
   .text-balance {
     text-wrap: balance;
   }
+}
+
+.flex {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
 }
